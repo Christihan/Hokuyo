@@ -6,6 +6,8 @@ import pickle
 from hokuyo.driver import hokuyo
 from hokuyo.tools import serial_port
 import Adafruit_BBIO.GPIO as GPIO 
+import time
+
 GPIO.setup("P8_10",GPIO.OUT)
 
 def valores(angle):
